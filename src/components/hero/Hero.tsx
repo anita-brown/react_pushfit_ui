@@ -1,36 +1,28 @@
 import React from "react";
 import star from "../../assets/star.svg";
 import mock from "../../assets/mock.svg";
-import bitmap from "../../assets/bitmap.svg"
+import bitmap from "../../assets/bitmap.svg";
 import { BsApple } from "react-icons/bs";
-// import { HiOutlineArrowLongDown } from "react-icons/hi";
 import { CgArrowLongDown } from "react-icons/cg";
-
+import AppButton from "../../shared/AppButton";
 
 const Hero = () => {
   return (
-    <section className="flex w-[100%] p-16">
-      <div className="flex flex-col gap-6 w-[60%] mt-10">
-        <div className="flex flex-col gap-4">
+    <section className="flex w-full pt-4">
+      <div className="flex flex-col gap-6 w-[60%] md:mt-5 lg:mt-10">
+        <div className="flex flex-col lg:gap-4 md:gap-2">
           <div className="flex gap-8 items-start">
             <img className="w-24" src={star} alt="" />
-            <span className="text-6xl font-bold"> Make walking </span>
+            <span className="lg:text-6xl md:text-4xl font-bold"> Make walking </span>
           </div>
-          <p className="text-6xl font-bold">your daily habit that</p>
-          <p className="text-6xl font-bold">rewards.</p>
+          <p className="lg:text-6xl md:text-4xl font-bold">your daily habit that</p>
+          <p className="lg:text-6xl md:text-4xl font-bold">rewards.</p>
         </div>
-        <p className="leading-7 font-light w-[55%] text-left border-l border-gray-800 px-6 ">Sed ut perspiciatis unde omnis iste natus error sit — voluptatem accusantium doloremque laud antium, totam rem aperiam, eaque ipsa.</p>
-        <div className="flex gap-6 items-center mt-6">
-          <button className="flex items-center gap-2 border px-7 py-4 rounded-full">
-            <i>
-              <BsApple className="w-6 h-6" />
-            </i>
-            <p className="font-bold">App Store</p>
-          </button>
-          <button className="flex items-center gap-3 border px-7 py-4 rounded-full">
-            <img className="w-6 h-6" src={bitmap} alt="" />
-            <p className="font-bold">Play Store</p>
-          </button>
+        <p className="leading-7 md:text-xs lg:text-xl font-light md:w-[90%] lg:w-[60%] text-left border-l border-gray-800 px-6 ">
+          Sed ut perspiciatis unde omnis iste natus error sit — voluptatem accusantium doloremque laud antium, totam rem aperiam, eaque ipsa.
+        </p>
+        <div>
+          <AppButton />
         </div>
         <div className="flex mt-12">
           <i>
@@ -42,7 +34,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-[40%]">
-        <img className="h-55 w-55" src={mock} alt="" />
+        <img className="lg:h-55 lg:w-55 md:w-100" src={mock} alt="" />
       </div>
     </section>
   );

@@ -1,14 +1,12 @@
 import React from "react";
 import star from "../../assets/star.svg";
 import mock from "../../assets/mock.svg";
-import bitmap from "../../assets/bitmap.svg";
-import { BsApple } from "react-icons/bs";
 import { CgArrowLongDown } from "react-icons/cg";
 import AppButton from "../../shared/AppButton";
 
 const Hero = () => {
   return (
-    <section className="flex w-full pt-4">
+    <section className="flex w-full pt-16">
       <div className="flex flex-col gap-6 w-[60%] md:mt-5 lg:mt-10">
         <div className="flex flex-col lg:gap-4 md:gap-2">
           <div className="flex gap-8 items-start">

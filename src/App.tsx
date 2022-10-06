@@ -1,4 +1,5 @@
 import React from 'react';
+import BannerFour from './components/banner/BannerFour';
 import BannerOne from './components/banner/BannerOne';
 import BannerThree from './components/banner/BannerThree';
 import BannerTwo from './components/banner/BannerTwo';
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <BannerOne />
       <BannerTwo />
-      <BannerThree/>
+      <BannerThree />
+      <BannerFour/>
     </div>
   );
 }

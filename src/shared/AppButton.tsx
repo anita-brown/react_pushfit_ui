@@ -3,6 +3,7 @@ import { BsApple } from "react-icons/bs";
 import bitmap from "../assets/bitmap.svg";
 
 const AppButton = () => {
+    
   return (
     <div className="flex gap-6 items-center mt-6">
       <button className="flex items-center gap-2 border px-7 py-4 rounded-full">

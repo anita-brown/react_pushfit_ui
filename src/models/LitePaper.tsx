@@ -3,6 +3,8 @@ import BannerCard from '../components/litepaper/BannerCard'
 import Header from '../components/litepaper/Header'
 import MarketChart from '../components/marketchart/MarketChart'
 import MintCard from '../components/mintcard/MintCard'
+import RoadMap from '../components/roadmap/RoadMap'
+import Tokenmetrics from '../components/tokenmetrics/Tokenmetrics'
 
 
 const LitePaper = () => {
@@ -11,7 +13,9 @@ const LitePaper = () => {
           <Header />
           <BannerCard />
           <MintCard />
-          <MarketChart/>
+          <MarketChart />
+          <Tokenmetrics />
+          <RoadMap/>
     </section>
   )
 }

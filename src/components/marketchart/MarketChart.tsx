@@ -5,6 +5,9 @@ import mintshoe from "../../assets/mintshoe.svg";
 import arrowdown from "../../assets/arrowdown.png";
 import bottom from "../../assets/bottom.png"
 import mint from "../../assets/mint.png";
+import btc from "../../assets/btc.png"
+import forwardarrow from "../../assets/forwardarrow.svg";
+import backarrow from "../../assets/backarrow.svg";
 const MarketChart = () => {
   return (
     <section className="mt-[4rem]">
@@ -42,7 +45,16 @@ const MarketChart = () => {
       </div>
       <div className="flex flex-col items-center justify-center">
         <img className="w-[92%]" src={bottom} alt="" />
-      <img className="w-5" src={arrowdown} alt="" />
+        <img className="w-5" src={arrowdown} alt="" />
+        <p className="font-bold mt-4">MOVE TO EARN</p>
+        <div className="flex items-center justify-center">
+          <img className="w-20" src={mint} alt="" />
+          <div className="flex flex-col gap-2 items-center justify-center">
+            <img className="w-[9rem]" src={forwardarrow} alt="" />
+            <img className="w-[9rem]" src={backarrow} alt="" />
+          </div>
+          <img className="w-28" src={btc} alt="" />
+        </div>
       </div>
     </section>
   );

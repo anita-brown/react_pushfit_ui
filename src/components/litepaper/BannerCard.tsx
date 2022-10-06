@@ -1,22 +1,5 @@
 import React from "react";
-const data = [
-  {
-    header: "UNIQUE",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas vitae sem imperdiet urna sollicitudin quisque pellentesque. In dolor et etiam ultrices nullam at at. Elementum risus volutpat.",
-  },
-  {
-    header: "EASY TO EARN",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas vitae sem imperdiet urna sollicitudin quisque pellentesque. In dolor et etiam ultrices nullam at at. Elementum risus volutpat.",
-  },
-  {
-    header: "USER FRIENDLY",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas vitae sem imperdiet urna sollicitudin quisque pellentesque. In dolor et etiam ultrices nullam at at. Elementum risus volutpat.",
-  },
-  {
-    header: "SECURITY",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas vitae sem imperdiet urna sollicitudin quisque pellentesque. In dolor et etiam ultrices nullam at at. Elementum risus volutpat.",
-  },
-];
+import {data} from "../../data"
 
 const BannerCard = () => {
   return (

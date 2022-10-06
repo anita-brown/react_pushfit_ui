@@ -9,7 +9,7 @@ import Tokenmetrics from '../components/tokenmetrics/Tokenmetrics'
 
 const LitePaper = () => {
   return (
-    <section>
+    <section className='px-[6rem]'>
           <Header />
           <BannerCard />
           <MintCard />

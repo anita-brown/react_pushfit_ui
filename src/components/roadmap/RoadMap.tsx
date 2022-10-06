@@ -5,10 +5,12 @@ import ellipse from "../../assets/ellipse.svg";
 import { SiTelegram, SiDiscord } from "react-icons/si";
 import { AiFillTwitterCircle, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF, FaTiktok } from "react-icons/fa";
+
 const data = [<SiTelegram />, <AiFillTwitterCircle />, <SiDiscord />, <AiFillInstagram />, <FaLinkedinIn />, <FaFacebookF />, <FaTiktok />];
+
 const RoadMap = () => {
   return (
-    <section className="mt-[10rem] mb-[10rem] flex flex-col items-center justify-center">
+    <section className="mt-[10rem] mb-[10rem] flex flex-col items-center justify-center px-[6rem]">
       <h1 className="font-bold text-6xl">Roadmap</h1>
       <Graph />
 
@@ -25,7 +27,7 @@ const RoadMap = () => {
           </p>
           <div className="grid grid-cols-4 gap-6 mt-4">
             {data.map((item) => (
-              <i className="bg-[#A5FF00] rounded-full text-6xl p-9">{item}</i>
+              <i className="bg-[#A5FF00] rounded-full text-6xl p-[1.5rem]">{item}</i>
             ))}
           </div>
         </div>

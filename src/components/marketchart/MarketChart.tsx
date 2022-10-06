@@ -8,6 +8,8 @@ import mint from "../../assets/mint.png";
 import btc from "../../assets/btc.png"
 import forwardarrow from "../../assets/forwardarrow.svg";
 import backarrow from "../../assets/backarrow.svg";
+
+
 const MarketChart = () => {
   return (
     <section className="mt-[4rem]">

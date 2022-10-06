@@ -1,16 +1,28 @@
 import React from 'react'
 import logo from "../../assets/logo.svg";
-import { RiShareBoxFill, RiMenu3Fill, RiCloseLine } from "react-icons/ri";
+import { RiShareBoxFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
-    <section className='mt-24'>
+    <section className='mt-24 px-[6rem]'>
           <div className="flex justify-between items-center h-24 mx-auto">
+              <Link to="/home">
               <img className="w-20 h-20" src={logo} alt="" />
+              </Link>
               <ul className="hidden md:flex lg:text-[1rem] md:text-xs">
-                  <li className="p-4 hover:border-b-4 hover:font-bold">How to earn</li>
-                  <li className="p-4 hover:border-b-4 hover:font-bold">Litepaper</li>
-                  <li className="p-4 hover:border-b-4 hover:font-bold">Roadmap</li>
-                  <li className="p-4 hover:border-b-4 hover:font-bold">About Push Fit</li>
+                  <Link to="/home">
+                      <li className="p-4 hover:border-b-4 hover:font-bold">How to earn</li>
+                  </Link>
+                  <Link to="/litepaper">
+                      <li className="p-4 hover:border-b-4 hover:font-bold">Litepaper</li>
+                  </Link>
+                  <Link to="/roadmap">
+                      <li className="p-4 hover:border-b-4 hover:font-bold">Roadmap</li>
+                  </Link>
+                  <Link to="/about">
+                      <li className="p-4 hover:border-b-4 hover:font-bold">About Push Fit</li>
+                  </Link>
               </ul>
               <div className="hidden md:flex lg:text-[1rem] md:text-xs items-center gap-2 hover:border-b-4 p-4 hover:font-bold">
                   <p>Connect Phantom</p>

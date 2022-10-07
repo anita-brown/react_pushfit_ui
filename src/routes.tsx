@@ -15,7 +15,7 @@ const Routes = () => {
         <Route path="/home" element={<Home />} caseSensitive />
         <Route path="/litepaper" element={<LitePaper />} caseSensitive />
         <Route path="/about" element={<About />} caseSensitive />
-        {/* <Route path="/roadmap" element={<RoadMap />} caseSensitive /> */}
+        <Route path="/roadmap" element={<RoadMap />} caseSensitive />
       </Switch>
       <Footer />
     </>

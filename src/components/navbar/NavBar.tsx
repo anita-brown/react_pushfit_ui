@@ -33,10 +33,10 @@ const NavBar = () => {
           <RiShareBoxFill />
         </i>
       </div>
-      <div onClick={handleNav} className="block md:hidden md:mr-9">
+      <div onClick={handleNav} className="block md:hidden ">
         {!nav ? <RiCloseLine size={25} /> : <RiMenu3Fill size={20} />}
       </div>
-      <div className={!nav ? "lg:hidden md:hidden px-14 fixed left-0 top-0 w-[75%] bg-white h-full ease-in-out duration-500" : "fixed left-[-100%]"}>
+      <div className={!nav ? "lg:hidden md:hidden px-14 fixed left-0 top-0 w-[60%] bg-white h-full ease-in-out duration-500" : " sm:fixed fixed left-[-100%]"}>
         <img className="w-20 h-20 m-4" src={logo} alt="" />
 
         <ul className="pt-24">

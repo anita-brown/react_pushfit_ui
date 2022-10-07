@@ -8,19 +8,19 @@ import staking from "../../assets/staking.png"
 const BannerOne = () => {
     return (
       <section className="flex flex-col gap-16">
-        <div className="flex justify-between items-center pt-20">
-          <div className="flex flex-col gap-2">
-            <h1 className="leading-[3rem] font-bold text-4xl w-[35rem]">
+        <div className="flex sm:flex-col sm:items-center md:flex-col md:items-center justify-between items-center pt-20">
+          <div className="flex flex-col  sm:items-center  gap-2 sm:text-center">
+            <h1 className="leading-[3rem] font-bold sm:text-2xl text-4xl w-[35rem]">
               Walking, Running, Cycling,
               <br /> Driving & Earn Cryptocurrency
             </h1>
-            <p className="w-[35rem] text-gray-500">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laud antium, totam rem aperiam, eaque ipsa.</p>
+            <p className="w-[35rem] sm:w-[20rem]  sm:text-center text-gray-500">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laud antium, totam rem aperiam, eaque ipsa.</p>
           </div>
           <div>
             <AppButton />
           </div>
         </div>
-        <div className="flex gap-20">
+        <div className="flex sm:grid sm:grid-cols-2 sm:gap-10 md:grid md:grid-cols-2 gap-20">
           <div className="">
             <img className="w-14" src={icon} alt="" />
             <h1 className="font-bold mt-6 mb-4 text-xl">Drive to Earn</h1>

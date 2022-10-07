@@ -8,8 +8,8 @@ const Card = ({ content }:any) => {
       </div>
       <div className=" flex flex-col gap-1">
         <p className="font-[550] text-[13px]">{content.title}</p>
-        <h1 className="font-bold text-2xl">{content.name}</h1>
-        <p className="text-[14px] w-[95%] text-[#6D6D6D]text-left">{content.content}</p>
+        <h1 className="font-bold sm:text-xl text-2xl">{content.name}</h1>
+        <p className="text-[14px] w-[95%] sm:w-[100%] text-[#6D6D6D]text-left">{content.content}</p>
       </div>
     </div>
   );

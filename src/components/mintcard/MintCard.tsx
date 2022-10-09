@@ -4,8 +4,8 @@ import {MdDoubleArrow} from "react-icons/md"
 
 const MintCard = () => {
   return (
-    <section className="flex justify-center text-center mt-24">
-      <div className=" text-white bg-black border-4 border-[#A5FF00] rounded-2xl w-[16%]">
+    <section className="flex justify-center text-center mt-24 ">
+      <div className=" text-white bg-black border-4 border-[#A5FF00] rounded-2xl w-[50%] lg:w-[16%]">
         <div className="flex items-center justify-center gap-2 py-1  border-b-2 border-[#A5FF00] ">
           <i className="text-[#A5FF00]">
             <MdDoubleArrow />

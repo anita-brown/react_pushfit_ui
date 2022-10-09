@@ -9,15 +9,15 @@ import Tokenmetrics from '../components/tokenmetrics/Tokenmetrics'
 
 const LitePaper = () => {
   return (
-    <section className='px-[6rem]'>
-          <Header />
-          <BannerCard />
-          <MintCard />
-          <MarketChart />
-          <Tokenmetrics />
-          <RoadMap/>
+    <section className="lg:px-[6rem] px-[1.5rem] z-0">
+      <Header />
+      <BannerCard />
+      <MintCard />
+      <MarketChart />
+      <Tokenmetrics />
+      <RoadMap />
     </section>
-  )
+  );
 }
 
 export default LitePaper

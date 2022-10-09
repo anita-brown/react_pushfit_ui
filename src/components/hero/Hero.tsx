@@ -6,23 +6,23 @@ import AppButton from "../../shared/AppButton";
 
 const Hero = () => {
   return (
-    <section className="flex md:flex-col md:items-center sm:flex-col sm:items-center sm:w-full w-full pt-16">
-      <div className="flex flex-col gap-6 w-[60%] sm:w-[100%] md:mt-5 lg:mt-10">
+    <section className="flex flex-col justify-center lg:flex-row md:justify-center w-[100%] pt-16">
+      <div className="">
         <div className="flex flex-col lg:gap-4 md:gap-2">
           <div className="flex gap-8 items-start">
             <img className="w-24" src={star} alt="" />
-            <span className="lg:text-6xl md:text-4xl sm:text-2xl font-bold"> Make walking </span>
+            <span className="lg:text-6xl md:text-4xl text-3xl font-bold"> Make walking </span>
           </div>
-          <p className="lg:text-6xl md:text-4xl sm:text-2xl font-bold">your daily habit that</p>
-          <p className="lg:text-6xl md:text-4xl sm:text-2xl font-bold">rewards.</p>
+          <p className="lg:text-6xl md:text-4xl text-3xl font-bold">your daily habit that</p>
+          <p className="lg:text-6xl md:text-4xl text-3xl font-bold mt-4">rewards.</p>
         </div>
-        <p className="leading-7 md:text-xs lg:text-xl font-light sm:w-[98%] md:w-[90%] lg:w-[60%] text-left border-l border-gray-800 px-6 ">
+        <p className="leading-7 md:text-xs lg:text-xl font-light mt-4  md:w-[90%] lg:w-[60%] text-left border-l border-gray-800 px-6 ">
           Sed ut perspiciatis unde omnis iste natus error sit — voluptatem accusantium doloremque laud antium, totam rem aperiam, eaque ipsa.
         </p>
         <div>
           <AppButton />
         </div>
-        <div className="flex mt-12 md:hidden sm:hidden">
+        <div className="lg:flex mt-12 lg:block md:hidden hidden">
           <i>
             <CgArrowLongDown size={32} />
           </i>
@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="w-[40%] md:w-[80%] sm:w-[90%]">
+      <div className="w-[95%] md:w-[80%] mt-8">
         <img className="lg:h-55 lg:w-55 md:w-100" src={mock} alt="" />
       </div>
     </section>

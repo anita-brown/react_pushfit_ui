@@ -8,7 +8,7 @@ import Hero from '../components/hero/Hero';
 
 const Home = () => {
   return (
-    <section className='px-[6rem]'>
+    <section className='lg:px-[6rem] px-[1.5rem] z-0'>
       <Hero />
       <BannerOne />
       <BannerTwo />

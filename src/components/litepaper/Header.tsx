@@ -6,8 +6,8 @@ import goo from "../../assets/goo.png";
 
 const Header = () => {
   return (
-    <section>
-      <div className="mt-[6rem] flex justify-center items-center flex-col lg:mt-[8rem] lg:gap-8 md:gap-2">
+    <section className="lg:px-[6rem] px-[1.5rem] z-0">
+      <div className="mt-[6rem] flex justify-center items-center flex-col lg:mt-[8rem] lg:gap-8 md:gap-2 ">
         <div>
           <div className="flex gap-8 items-start">
             <img className="w-24" src={star} alt="" />

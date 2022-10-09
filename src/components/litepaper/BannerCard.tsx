@@ -3,7 +3,7 @@ import {data} from "../../data"
 
 const BannerCard = () => {
   return (
-    <section className="mt-[15rem] lg:mt-[6rem] text-center">
+    <section className="mt-[15rem] lg:mt-[6rem] text-center lg:px-[6rem] px-[1.5rem] z-0">
       <h1 className="font-bold text-2xl lg:text-6xl">Why Us?</h1>
       <div className="flex flex-col lg:flex-row mt-[3rem] gap-6">
         {data.map((item) => (

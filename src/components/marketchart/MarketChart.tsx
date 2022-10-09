@@ -12,7 +12,7 @@ import backarrow from "../../assets/backarrow.svg";
 
 const MarketChart = () => {
   return (
-    <section className="lg:mt-[4rem] mt-[3rem]">
+    <section className="lg:mt-[4rem] mt-[3rem] lg:px-[6rem] px-[1.5rem] z-0">
       <h1 className="text-center text-2xl font-[600] lg:text-4xl">IN-APP MARKETPLACE</h1>
 
       <div className="flex items-center mb-[1rem] gap-[4rem] lg:gap-[32rem] justify-center">

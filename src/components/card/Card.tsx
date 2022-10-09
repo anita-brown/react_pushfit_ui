@@ -4,7 +4,7 @@ const Card = ({ content }:any) => {
   return (
     <div className="">
       <div className="mb-4 bg-[#F5FFE7] px-[3rem] py-[3rem] flex justify-center">
-        <img className="lg:w-[70%] " src={content.image} alt="image" />
+        <img className="lg:w-[70%] md:w-[50%]" src={content.image} alt="image" />
       </div>
       <div className=" flex flex-col gap-1">
         <p className="font-[550] text-[13px]">{content.title}</p>
